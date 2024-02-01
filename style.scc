@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+.menu{
+    color: #dcf6311;
+    font-size: 16px;
+    line-height: 20px;
+}
+.title{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+.subtitle{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+.image{
+    border-radius: 50%;
+    /* width: px */
+}
+.image:hover{
+    transform: scale(1.05);
+    box-shadow: 20px 20px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 500ms, box-shadow 500ms;
+}
+.anchor{
+    font-size: 20px;
+    text-decoration: underline;
+} 
